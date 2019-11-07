@@ -264,5 +264,8 @@ module.exports = {
 		options: {
 			importFrom: {}
 		}
+	},
+	'color-functions': {
+		message: 'property in color functions'
 	}
 };

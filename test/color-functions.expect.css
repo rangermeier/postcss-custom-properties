@@ -1,0 +1,13 @@
+:root {
+	--colorRGB: 255, 0, 0;
+}
+
+.test--rgb {
+	color: rgb(255, 0, 0);
+	color: rgb(var(--colorRGB));
+}
+
+.test--rgba {
+	color: rgba(255, 0, 0, 0.5);
+	color: rgba(var(--colorRGB), 0.5);
+}
